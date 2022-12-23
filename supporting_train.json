@@ -1,0 +1,17 @@
+{
+  "start": [
+    "((start)|(more)|(okay)|(ok)) (()|(again)|(i got it)){0,1}",
+    "want ((more)|(again)){0,1} (information)"
+  ],
+  "cqa": [
+    "tell, ((what)|(which)) ((coffee)|(blend)) do you roast",
+    "tell, ((what)|(which)) ((coffee)|(blend)) should i ((buy)|(get)|(order))",
+    "tell me story about your ((farm)|(coffee shop)){0,1}",
+    "tell your ((information)|(adress))",
+    "i want tour"
+  ],
+  "coffee": [
+    "i want ((sour)|(flavored)|(sweet)) coffee{0,1}",
+    "i want ((buy)|(get)|(order)) accessories"
+  ]
+}
